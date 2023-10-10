@@ -1,0 +1,6 @@
+@software{hpmlt,
+author = {Bakas, Nikolaos P.},
+title = {{hpmlt: High Performance Machine Learning Algorithms for Tabular Datasets}},
+year = {2023},
+url = {https://github.com/nbakas/hpmlt/}
+}

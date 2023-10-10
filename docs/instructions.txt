@@ -1,0 +1,34 @@
+###################################################################################
+# Download the following files, by simply pasting the below commands to the terminal:
+###################################################################################
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/docs/sbHPMLT.sh
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/docs/myDataset.xlsx
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/__hpmlt__.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/create_LaTeX.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/descriptive_statistics.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/import_libraries.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/install_libraries.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/misc_functions.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_ANNBN.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_DANN.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_linear_regression.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_nlregr.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_random_forests.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/ml_xgboost.py
+wget https://raw.githubusercontent.com/nbakas/hpmlt/main/src/refs.bib
+###################################################################################
+
+
+###################################################################################
+# point ROOT_DIR (line 11 __hpmlt__.py) to your local directory. 
+# You may find it by typing pwd in the terminal. Add a / at the end.
+ROOT_DIR = "/.../.../"
+###################################################################################
+
+
+###################################################################################
+# run hpmlt, by typing the following command in the terminal. 
+# It will create local folders with results, plots, tables, etc!
+###################################################################################
+sbatch sbHPMLT.sh
+###################################################################################
